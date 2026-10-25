@@ -1,0 +1,553 @@
+[{
+  "_id": {
+    "$oid": "6a61df1e4255ef375c1ca3c6"
+  },
+  "booking": {
+    "$oid": "6a5d0ecc9efc8ec8608ec2c3"
+  },
+  "guest": {
+    "$oid": "6a3d69fbf81e0b2f3d3c3ecf"
+  },
+  "amount": 30500,
+  "paymentMethod": "Cash",
+  "status": "Paid",
+  "items": [
+    {
+      "description": "Room 302 (Deluxe)",
+      "amount": 25500,
+      "_id": {
+        "$oid": "6a61df1e4255ef375c1ca3c7"
+      }
+    },
+    {
+      "description": "Spa & Wellness",
+      "amount": 5000,
+      "_id": {
+        "$oid": "6a61df1e4255ef375c1ca3c8"
+      }
+    }
+  ],
+  "paymentDate": {
+    "$date": "2026-07-23T09:30:06.152Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a61df3b4255ef375c1ca3cb"
+  },
+  "booking": {
+    "$oid": "6a4b042638e21f5e552c1d2b"
+  },
+  "guest": {
+    "$oid": "6a3ffcc1271e7de4eecf5215"
+  },
+  "amount": 432000,
+  "paymentMethod": "Cash",
+  "status": "Paid",
+  "items": [
+    {
+      "description": "Room 101 (Single)",
+      "amount": 420000,
+      "_id": {
+        "$oid": "6a61df3b4255ef375c1ca3cc"
+      }
+    },
+    {
+      "description": "Airport Pickup",
+      "amount": 5000,
+      "_id": {
+        "$oid": "6a61df3b4255ef375c1ca3cd"
+      }
+    },
+    {
+      "description": "Swimming Pool",
+      "amount": 1000,
+      "_id": {
+        "$oid": "6a61df3b4255ef375c1ca3ce"
+      }
+    },
+    {
+      "description": "Kids Zone Access",
+      "amount": 6000,
+      "_id": {
+        "$oid": "6a61df3b4255ef375c1ca3cf"
+      }
+    }
+  ],
+  "paymentDate": {
+    "$date": "2026-07-23T09:30:35.512Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a61df3d4255ef375c1ca3d0"
+  },
+  "booking": {
+    "$oid": "6a5cc5fefbd32e99439d3577"
+  },
+  "guest": {
+    "$oid": "6a3d69fbf81e0b2f3d3c3ecf"
+  },
+  "amount": 48000,
+  "paymentMethod": "Cash",
+  "status": "Paid",
+  "items": [
+    {
+      "description": "Room 101 (Single)",
+      "amount": 48000,
+      "_id": {
+        "$oid": "6a61df3d4255ef375c1ca3d1"
+      }
+    }
+  ],
+  "paymentDate": {
+    "$date": "2026-07-23T09:30:37.500Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a61df3f4255ef375c1ca3d2"
+  },
+  "booking": {
+    "$oid": "6a5cd24344115bf1f28422ed"
+  },
+  "guest": {
+    "$oid": "6a3d69fbf81e0b2f3d3c3ecf"
+  },
+  "amount": 137000,
+  "paymentMethod": "Cash",
+  "status": "Paid",
+  "items": [
+    {
+      "description": "Room 101 (Single)",
+      "amount": 132000,
+      "_id": {
+        "$oid": "6a61df3f4255ef375c1ca3d3"
+      }
+    },
+    {
+      "description": "Spa & Wellness",
+      "amount": 5000,
+      "_id": {
+        "$oid": "6a61df3f4255ef375c1ca3d4"
+      }
+    }
+  ],
+  "paymentDate": {
+    "$date": "2026-07-23T09:30:39.609Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a61df414255ef375c1ca3d5"
+  },
+  "booking": {
+    "$oid": "6a5cfc689efc8ec8608ec2c1"
+  },
+  "guest": {
+    "$oid": "6a3d69fbf81e0b2f3d3c3ecf"
+  },
+  "amount": 402000,
+  "paymentMethod": "Cash",
+  "status": "Paid",
+  "items": [
+    {
+      "description": "Room 304 (Deluxe)",
+      "amount": 392000,
+      "_id": {
+        "$oid": "6a61df414255ef375c1ca3d6"
+      }
+    },
+    {
+      "description": "Spa & Wellness",
+      "amount": 5000,
+      "_id": {
+        "$oid": "6a61df414255ef375c1ca3d7"
+      }
+    },
+    {
+      "description": "Airport Pickup",
+      "amount": 5000,
+      "_id": {
+        "$oid": "6a61df414255ef375c1ca3d8"
+      }
+    }
+  ],
+  "paymentDate": {
+    "$date": "2026-07-23T09:30:41.156Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a6240189684b5c2b7e89666"
+  },
+  "booking": {
+    "$oid": "6a6240059684b5c2b7e89659"
+  },
+  "guest": {
+    "$oid": "6a492a8b23d39041492de6e8"
+  },
+  "amount": 533500,
+  "paymentMethod": "Cash",
+  "status": "Paid",
+  "items": [
+    {
+      "description": "Room 405 (Suite)",
+      "amount": 525000,
+      "_id": {
+        "$oid": "6a6240189684b5c2b7e89667"
+      }
+    },
+    {
+      "description": "Swimming Pool",
+      "amount": 1000,
+      "_id": {
+        "$oid": "6a6240189684b5c2b7e89668"
+      }
+    },
+    {
+      "description": "Spa & Wellness",
+      "amount": 5000,
+      "_id": {
+        "$oid": "6a6240189684b5c2b7e89669"
+      }
+    },
+    {
+      "description": "Fine Dining",
+      "amount": 2500,
+      "_id": {
+        "$oid": "6a6240189684b5c2b7e8966a"
+      }
+    }
+  ],
+  "paymentDate": {
+    "$date": "2026-07-23T16:23:52.229Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fec78ffbf2397818f1c98"
+  },
+  "booking": {
+    "$oid": "6a5fb5cabe8b5c6f32de17dc"
+  },
+  "guest": {
+    "$oid": "6a49201b4e1786068983db60"
+  },
+  "amount": 46000,
+  "paymentMethod": "Cash",
+  "status": "Paid",
+  "items": [
+    {
+      "description": "Room 201 (Double)",
+      "amount": 40000,
+      "_id": {
+        "$oid": "6a7fec78ffbf2397818f1c99"
+      }
+    },
+    {
+      "description": "Airport Pickup",
+      "amount": 5000,
+      "_id": {
+        "$oid": "6a7fec78ffbf2397818f1c9a"
+      }
+    },
+    {
+      "description": "Swimming Pool",
+      "amount": 1000,
+      "_id": {
+        "$oid": "6a7fec78ffbf2397818f1c9b"
+      }
+    }
+  ],
+  "paymentDate": {
+    "$date": "2026-08-15T04:35:04.465Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a993631782a68a01134555e"
+  },
+  "booking": {
+    "$oid": "6a63808f64829fcad7d32d74"
+  },
+  "guest": {
+    "$oid": "6a3ffcc1271e7de4eecf5215"
+  },
+  "amount": 89000,
+  "paymentMethod": "Cash",
+  "status": "Paid",
+  "items": [
+    {
+      "description": "Room 402 (Suite)",
+      "amount": 68000,
+      "_id": {
+        "$oid": "6a993631782a68a01134555f"
+      }
+    },
+    {
+      "description": "Spa & Wellness",
+      "amount": 5000,
+      "_id": {
+        "$oid": "6a993631782a68a011345560"
+      }
+    },
+    {
+      "description": "Swimming Pool",
+      "amount": 1000,
+      "_id": {
+        "$oid": "6a993631782a68a011345561"
+      }
+    },
+    {
+      "description": "Birthday Party Decoration",
+      "amount": 15000,
+      "_id": {
+        "$oid": "6a993631782a68a011345562"
+      }
+    }
+  ],
+  "paymentDate": {
+    "$date": "2026-09-03T08:56:17.863Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a993645782a68a011345563"
+  },
+  "booking": {
+    "$oid": "6a9935f0782a68a0113454ea"
+  },
+  "guest": {
+    "$oid": "6a3d69fbf81e0b2f3d3c3ecf"
+  },
+  "amount": 100000,
+  "paymentMethod": "Cash",
+  "status": "Paid",
+  "items": [
+    {
+      "description": "Room 104 (Single)",
+      "amount": 90000,
+      "_id": {
+        "$oid": "6a993645782a68a011345564"
+      }
+    },
+    {
+      "description": "Spa & Wellness",
+      "amount": 5000,
+      "_id": {
+        "$oid": "6a993645782a68a011345565"
+      }
+    },
+    {
+      "description": "Airport Pickup",
+      "amount": 5000,
+      "_id": {
+        "$oid": "6a993645782a68a011345566"
+      }
+    }
+  ],
+  "paymentDate": {
+    "$date": "2026-09-03T08:56:37.234Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a99364c782a68a011345567"
+  },
+  "booking": {
+    "$oid": "6a87db9115871c27862b2a12"
+  },
+  "guest": {
+    "$oid": "6a87db4615871c27862b2a11"
+  },
+  "amount": 28000,
+  "paymentMethod": "Cash",
+  "status": "Paid",
+  "items": [
+    {
+      "description": "Room 202 (Double)",
+      "amount": 23000,
+      "_id": {
+        "$oid": "6a99364c782a68a011345568"
+      }
+    },
+    {
+      "description": "Spa & Wellness",
+      "amount": 5000,
+      "_id": {
+        "$oid": "6a99364c782a68a011345569"
+      }
+    }
+  ],
+  "paymentDate": {
+    "$date": "2026-09-03T08:56:44.021Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a993654782a68a01134556a"
+  },
+  "booking": {
+    "$oid": "6a7feb38ffbf2397818f1c37"
+  },
+  "guest": {
+    "$oid": "6a3d6a33f81e0b2f3d3c3ed0"
+  },
+  "amount": 224000,
+  "paymentMethod": "Cash",
+  "status": "Paid",
+  "items": [
+    {
+      "description": "Room 102 (Single)",
+      "amount": 216000,
+      "_id": {
+        "$oid": "6a993654782a68a01134556b"
+      }
+    },
+    {
+      "description": "Fitness Gym",
+      "amount": 8000,
+      "_id": {
+        "$oid": "6a993654782a68a01134556c"
+      }
+    }
+  ],
+  "paymentDate": {
+    "$date": "2026-09-03T08:56:52.139Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a993658782a68a01134556d"
+  },
+  "booking": {
+    "$oid": "6a6b67269a09abed4d130536"
+  },
+  "guest": {
+    "$oid": "6a3d69fbf81e0b2f3d3c3ecf"
+  },
+  "amount": 106000,
+  "paymentMethod": "Cash",
+  "status": "Paid",
+  "items": [
+    {
+      "description": "Room 101 (Single)",
+      "amount": 96000,
+      "_id": {
+        "$oid": "6a993658782a68a01134556e"
+      }
+    },
+    {
+      "description": "Spa & Wellness",
+      "amount": 5000,
+      "_id": {
+        "$oid": "6a993658782a68a01134556f"
+      }
+    },
+    {
+      "description": "Airport Pickup",
+      "amount": 5000,
+      "_id": {
+        "$oid": "6a993658782a68a011345570"
+      }
+    }
+  ],
+  "paymentDate": {
+    "$date": "2026-09-03T08:56:56.894Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6aa23bf032913888fbd7884b"
+  },
+  "booking": {
+    "$oid": "6aa23679dbf2f256cd8176f5"
+  },
+  "guest": {
+    "$oid": "6a492a8b23d39041492de6e8"
+  },
+  "amount": 38000,
+  "paymentMethod": "Cash",
+  "status": "Paid",
+  "items": [
+    {
+      "description": "Room 101 (Single)",
+      "amount": 24000,
+      "_id": {
+        "$oid": "6aa23bf032913888fbd7884c"
+      }
+    },
+    {
+      "description": "Spa & Wellness",
+      "amount": 5000,
+      "_id": {
+        "$oid": "6aa23bf032913888fbd7884d"
+      }
+    },
+    {
+      "description": "Fitness Gym",
+      "amount": 8000,
+      "_id": {
+        "$oid": "6aa23bf032913888fbd7884e"
+      }
+    },
+    {
+      "description": "Swimming Pool",
+      "amount": 1000,
+      "_id": {
+        "$oid": "6aa23bf032913888fbd7884f"
+      }
+    }
+  ],
+  "paymentDate": {
+    "$date": "2026-09-10T05:11:12.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6aa2d368764f8eddb4c0fc71"
+  },
+  "booking": {
+    "$oid": "6a5cfc979efc8ec8608ec2c2"
+  },
+  "guest": {
+    "$oid": "6a3d69fbf81e0b2f3d3c3ecf"
+  },
+  "amount": 31000,
+  "paymentMethod": "Cash",
+  "status": "Paid",
+  "items": [
+    {
+      "description": "Room 303 (Deluxe)",
+      "amount": 26000,
+      "_id": {
+        "$oid": "6aa2d368764f8eddb4c0fc72"
+      }
+    },
+    {
+      "description": "Spa & Wellness",
+      "amount": 5000,
+      "_id": {
+        "$oid": "6aa2d368764f8eddb4c0fc73"
+      }
+    }
+  ],
+  "paymentDate": {
+    "$date": "2026-09-10T15:57:28.875Z"
+  },
+  "__v": 0
+}]

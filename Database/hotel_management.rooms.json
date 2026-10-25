@@ -1,0 +1,557 @@
+[{
+  "_id": {
+    "$oid": "6a4610c7f8368d1b04fe0fb4"
+  },
+  "roomNumber": 101,
+  "roomType": "Single",
+  "price": 12000,
+  "floor": 1,
+  "description": "Luxury room",
+  "amenities": [
+    "Free WiFi",
+    "TV",
+    "Air Conditioner",
+    "Complimentary Breakfast Included"
+  ],
+  "availability": "Cleaning",
+  "image": "single-101.jpg",
+  "createdAt": {
+    "$date": "2026-07-02T07:18:31.599Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-10T15:57:24.106Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4610e7f8368d1b04fe0fb5"
+  },
+  "roomNumber": 102,
+  "roomType": "Single",
+  "price": 18000,
+  "floor": 1,
+  "description": "Luxury room",
+  "amenities": [
+    "Free WiFi",
+    "TV",
+    "Air Conditioner",
+    "Complimentary Breakfast Included"
+  ],
+  "availability": "Cleaning",
+  "image": "single-3.jpg",
+  "createdAt": {
+    "$date": "2026-07-02T07:19:03.474Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-03T08:56:52.136Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a46114cf8368d1b04fe0fb6"
+  },
+  "roomNumber": 103,
+  "roomType": "Single",
+  "price": 18000,
+  "floor": 1,
+  "description": "Comfortable and cozy",
+  "amenities": [
+    "Free WiFi",
+    "TV",
+    "Air Conditioner",
+    "Complimentary Breakfast Included"
+  ],
+  "availability": "Available",
+  "image": "single-rooom.jpg",
+  "createdAt": {
+    "$date": "2026-07-02T07:20:44.257Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-10T15:53:58.160Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a461167f8368d1b04fe0fb7"
+  },
+  "roomNumber": 104,
+  "roomType": "Single",
+  "price": 18000,
+  "floor": 1,
+  "description": "Comfortable ",
+  "amenities": [
+    "Free WiFi",
+    "TV",
+    "Air Conditioner",
+    "Complimentary Breakfast Included"
+  ],
+  "availability": "Occupied",
+  "image": "single-104.jpg",
+  "createdAt": {
+    "$date": "2026-07-02T07:21:11.583Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-10T06:55:51.456Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a462eeef8368d1b04fe0fb8"
+  },
+  "roomNumber": 201,
+  "roomType": "Double",
+  "price": 20000,
+  "floor": 2,
+  "description": "Designed for couples who appreciate elegance, spacious living and exclusive hospitality. ",
+  "amenities": [
+    "Free WiFi",
+    "TV",
+    "Air Conditioner",
+    "City View",
+    "Complimentary Breakfast Included"
+  ],
+  "availability": "Occupied",
+  "image": "Double-room.jpg",
+  "createdAt": {
+    "$date": "2026-07-02T09:27:10.544Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-04T05:34:45.363Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a462f22f8368d1b04fe0fb9"
+  },
+  "roomNumber": 202,
+  "roomType": "Double",
+  "price": 23000,
+  "floor": 2,
+  "description": "Designed for couples who appreciate elegance, spacious living and exclusive hospitality. ",
+  "amenities": [
+    "Free WiFi",
+    "TV",
+    "Air Conditioner",
+    "Personal Car Parking",
+    "Complimentary Breakfast Included"
+  ],
+  "availability": "Occupied",
+  "image": "double-202.jpg",
+  "createdAt": {
+    "$date": "2026-07-02T09:28:02.850Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-10T01:36:14.457Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a463285f8368d1b04fe0fba"
+  },
+  "roomNumber": 203,
+  "roomType": "Double",
+  "price": 25000,
+  "floor": 2,
+  "description": "Designed for couples who appreciate elegance, spacious living and exclusive hospitality. ",
+  "amenities": [
+    "Free WiFi",
+    "TV",
+    "Air Conditioner",
+    "Personal Car Parking",
+    "Any One Free Service",
+    "Complimentary Breakfast Included"
+  ],
+  "availability": "Available",
+  "image": "double-3.jpg",
+  "createdAt": {
+    "$date": "2026-07-02T09:42:29.039Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-24T18:30:25.336Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a46329ff8368d1b04fe0fbb"
+  },
+  "roomNumber": 204,
+  "roomType": "Double",
+  "price": 25500,
+  "floor": 2,
+  "description": "Designed for couples who appreciate elegance, spacious living and exclusive hospitality. ",
+  "amenities": [
+    "Free WiFi",
+    "TV",
+    "Air Conditioner",
+    "Personal Car Parking",
+    "Complimentary Breakfast Included"
+  ],
+  "availability": "Maintenance",
+  "image": "double-4.jpg",
+  "createdAt": {
+    "$date": "2026-07-02T09:42:55.812Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-03T09:06:19.633Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a46331cf8368d1b04fe0fbc"
+  },
+  "roomNumber": 301,
+  "roomType": "Deluxe",
+  "price": 25500,
+  "floor": 3,
+  "description": "Spacious family accommodation offering premium comfort, multiple beds and modern facilities for memorable family stays. ",
+  "amenities": [
+    "Two Queen Bed",
+    "Kids Area",
+    "Free WiFi",
+    "TV",
+    "Air Conditioner",
+    "Personal Car Parking",
+    "Complimentary Breakfast Included"
+  ],
+  "availability": "Available",
+  "image": "Deluxe-room.jpg",
+  "createdAt": {
+    "$date": "2026-07-02T09:45:00.868Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-02T09:45:00.868Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a463334f8368d1b04fe0fbd"
+  },
+  "roomNumber": 302,
+  "roomType": "Deluxe",
+  "price": 25500,
+  "floor": 3,
+  "description": "Spacious family accommodation offering premium comfort, multiple beds and modern facilities for memorable family stays. ",
+  "amenities": [
+    "Two Queen Bed",
+    "Kids Area",
+    "Free WiFi",
+    "TV",
+    "Air Conditioner",
+    "Personal Car Parking",
+    "Complimentary Breakfast Included"
+  ],
+  "availability": "Available",
+  "image": "deluxe-2.jpg",
+  "createdAt": {
+    "$date": "2026-07-02T09:45:24.887Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-24T17:49:52.492Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a463355f8368d1b04fe0fbe"
+  },
+  "roomNumber": 303,
+  "roomType": "Deluxe",
+  "price": 26000,
+  "floor": 3,
+  "description": "Spacious family accommodation offering premium comfort, multiple beds and modern facilities for memorable family stays. ",
+  "amenities": [
+    "Two Queen Bed",
+    "Room Service",
+    "Kids Area",
+    "Free WiFi",
+    "TV",
+    "Air Conditioner",
+    "Personal Car Parking",
+    "Complimentary Breakfast Included"
+  ],
+  "availability": "Available",
+  "image": "deluxe-3.jpg",
+  "createdAt": {
+    "$date": "2026-07-02T09:45:57.624Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-10T16:01:52.546Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a463366f8368d1b04fe0fbf"
+  },
+  "roomNumber": 304,
+  "roomType": "Deluxe",
+  "price": 28000,
+  "floor": 3,
+  "description": "Spacious family accommodation offering premium comfort, multiple beds and modern facilities for memorable family stays. ",
+  "amenities": [
+    "Two Queen Bed",
+    "Room Service",
+    "Kids Area",
+    "Free WiFi",
+    "TV",
+    "Air Conditioner",
+    "Personal Car Parking",
+    "Complimentary Breakfast Included"
+  ],
+  "availability": "Available",
+  "image": "deluxe-4.jpg",
+  "createdAt": {
+    "$date": "2026-07-02T09:46:14.345Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-24T17:50:05.817Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a46337ff8368d1b04fe0fc0"
+  },
+  "roomNumber": 305,
+  "roomType": "Deluxe",
+  "price": 30000,
+  "floor": 3,
+  "description": "Spacious family accommodation offering premium comfort, multiple beds and modern facilities for memorable family stays. ",
+  "amenities": [
+    "Two Queen Bed",
+    "Room Service",
+    "Kids Area",
+    "Free WiFi",
+    "TV",
+    "Air Conditioner",
+    "Personal Car Parking",
+    "Complimentary Breakfast Included"
+  ],
+  "availability": "Available",
+  "image": "deluxe-5.jpg",
+  "createdAt": {
+    "$date": "2026-07-02T09:46:39.223Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-30T06:58:37.886Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4633c1f8368d1b04fe0fc1"
+  },
+  "roomNumber": 401,
+  "roomType": "Suite",
+  "price": 65000,
+  "floor": 4,
+  "description": "Our Luxury Suite is thoughtfully designed to provide the perfect blend of elegance, comfort, and modern sophistication. Featuring spacious interiors, premium furnishings, and breathtaking views, every stay promises a relaxing and unforgettable experience for both business and leisure travelers. ",
+  "amenities": [
+    "King Sized Bed",
+    "Room Service",
+    "Kids Area",
+    "Free WiFi",
+    "TV",
+    "Air Conditioner",
+    "Personal Car Parking",
+    "Complimentary Breakfast Included"
+  ],
+  "availability": "Occupied",
+  "image": "Suite-room.jpg",
+  "createdAt": {
+    "$date": "2026-07-02T09:47:45.716Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-23T18:13:18.784Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a463400f8368d1b04fe0fc2"
+  },
+  "roomNumber": 402,
+  "roomType": "Suite",
+  "price": 68000,
+  "floor": 4,
+  "description": "Our Luxury Suite is thoughtfully designed to provide the perfect blend of elegance, comfort, and modern sophistication. Featuring spacious interiors, premium furnishings, and breathtaking views, every stay promises a relaxing and unforgettable experience for both business and leisure travelers. ",
+  "amenities": [
+    "King Sized Bed",
+    "Room Service",
+    "Kids Area",
+    "Free WiFi",
+    "TV",
+    "Personal Balcony",
+    "Air Conditioner",
+    "Personal Car Parking",
+    "Complimentary Breakfast Included"
+  ],
+  "availability": "Available",
+  "image": "suite-2.jpg",
+  "createdAt": {
+    "$date": "2026-07-02T09:48:48.173Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-03T09:09:37.750Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a46342ef8368d1b04fe0fc3"
+  },
+  "roomNumber": 403,
+  "roomType": "Suite",
+  "price": 70000,
+  "floor": 4,
+  "description": "Our Luxury Suite is thoughtfully designed to provide the perfect blend of elegance, comfort, and modern sophistication. Featuring spacious interiors, premium furnishings, and breathtaking views, every stay promises a relaxing and unforgettable experience for both business and leisure travelers. ",
+  "amenities": [
+    "King Sized Bed",
+    "Room Service",
+    "Kids Area",
+    "Free WiFi",
+    "TV",
+    "Personal Balcony",
+    "Air Conditioner",
+    "Personal Car Parking",
+    "Fitness Gym",
+    "Complimentary Breakfast Included"
+  ],
+  "availability": "Available",
+  "image": "suite-3.jpg",
+  "createdAt": {
+    "$date": "2026-07-02T09:49:34.993Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-02T09:49:34.993Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a463441f8368d1b04fe0fc4"
+  },
+  "roomNumber": 404,
+  "roomType": "Suite",
+  "price": 74000,
+  "floor": 4,
+  "description": "Our Luxury Suite is thoughtfully designed to provide the perfect blend of elegance, comfort, and modern sophistication. Featuring spacious interiors, premium furnishings, and breathtaking views, every stay promises a relaxing and unforgettable experience for both business and leisure travelers. ",
+  "amenities": [
+    "King Sized Bed",
+    "Room Service",
+    "Kids Area",
+    "Free WiFi",
+    "TV",
+    "Personal Balcony",
+    "Air Conditioner",
+    "Personal Car Parking",
+    "Fitness Gym",
+    "Complimentary Breakfast Included"
+  ],
+  "availability": "Available",
+  "image": "suite-4.png",
+  "createdAt": {
+    "$date": "2026-07-02T09:49:53.272Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-02T09:49:53.272Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a463461f8368d1b04fe0fc5"
+  },
+  "roomNumber": 405,
+  "roomType": "Suite",
+  "price": 75000,
+  "floor": 4,
+  "description": "Our Luxury Suite is thoughtfully designed to provide the perfect blend of elegance, comfort, and modern sophistication. Featuring spacious interiors, premium furnishings, and breathtaking views, every stay promises a relaxing and unforgettable experience for both business and leisure travelers. ",
+  "amenities": [
+    "King Sized Bed",
+    "Room Service",
+    "Kids Area",
+    "Free WiFi",
+    "TV",
+    "Personal Balcony",
+    "Air Conditioner",
+    "Personal Car Parking",
+    "Fitness Gym",
+    "Complimentary Breakfast Included"
+  ],
+  "availability": "Available",
+  "image": "1785423753590-913599342.jpg",
+  "createdAt": {
+    "$date": "2026-07-02T09:50:25.132Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-30T15:02:33.606Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a6b67ee9a09abed4d130557"
+  },
+  "roomNumber": 406,
+  "roomType": "Suite",
+  "price": 750000,
+  "floor": 4,
+  "description": "Luxury Spacious with Peaceful environment",
+  "amenities": [
+    "Smart TV",
+    "Parking",
+    "Gym",
+    "Room Service",
+    "Pickup",
+    "View",
+    "Complimentry Breakfast",
+    "Air Conditioner",
+    "Breakfast",
+    "Swimming Pool",
+    "Free WiFi",
+    "Play Area",
+    "bath"
+  ],
+  "availability": "Occupied",
+  "image": "1785423854706-322161139.jpg",
+  "createdAt": {
+    "$date": "2026-07-30T15:04:14.720Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-10T05:18:18.481Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7d7599a2581a173c2de8f4"
+  },
+  "roomNumber": 109,
+  "roomType": "Single",
+  "price": 100000,
+  "floor": 1,
+  "description": "Fuck",
+  "amenities": [
+    "Smart TV",
+    "Parking"
+  ],
+  "availability": "Available",
+  "image": "1786607001629-950444282.jpg",
+  "createdAt": {
+    "$date": "2026-08-13T07:43:21.669Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-13T07:48:05.518Z"
+  },
+  "__v": 0
+}]

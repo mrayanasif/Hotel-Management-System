@@ -1,0 +1,713 @@
+[{
+  "_id": {
+    "$oid": "6a5cd24344115bf1f28422ed"
+  },
+  "user": {
+    "$oid": "6a3d69fbf81e0b2f3d3c3ecf"
+  },
+  "room": {
+    "$oid": "6a4610c7f8368d1b04fe0fb4"
+  },
+  "services": [
+    {
+      "$oid": "6a46a73f525438b0b8daf06c"
+    }
+  ],
+  "checkIn": {
+    "$date": "2026-07-21T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2026-08-01T00:00:00.000Z"
+  },
+  "roomPrice": 132000,
+  "servicePrice": 5000,
+  "totalPrice": 137000,
+  "bookingStatus": "Completed",
+  "createdAt": {
+    "$date": "2026-07-19T13:33:55.734Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-19T13:37:52.448Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5cfc689efc8ec8608ec2c1"
+  },
+  "user": {
+    "$oid": "6a3d69fbf81e0b2f3d3c3ecf"
+  },
+  "room": {
+    "$oid": "6a463366f8368d1b04fe0fbf"
+  },
+  "services": [
+    {
+      "$oid": "6a46a73f525438b0b8daf06c"
+    },
+    {
+      "$oid": "6a46a758525438b0b8daf06d"
+    }
+  ],
+  "checkIn": {
+    "$date": "2026-07-22T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2026-08-05T00:00:00.000Z"
+  },
+  "roomPrice": 392000,
+  "servicePrice": 10000,
+  "totalPrice": 402000,
+  "bookingStatus": "Completed",
+  "createdAt": {
+    "$date": "2026-07-19T16:33:44.572Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-23T08:38:32.331Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5cfc979efc8ec8608ec2c2"
+  },
+  "user": {
+    "$oid": "6a3d69fbf81e0b2f3d3c3ecf"
+  },
+  "room": {
+    "$oid": "6a463355f8368d1b04fe0fbe"
+  },
+  "services": [
+    {
+      "$oid": "6a46a73f525438b0b8daf06c"
+    }
+  ],
+  "checkIn": {
+    "$date": "2026-07-22T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2026-07-23T00:00:00.000Z"
+  },
+  "roomPrice": 26000,
+  "servicePrice": 5000,
+  "totalPrice": 31000,
+  "bookingStatus": "Completed",
+  "createdAt": {
+    "$date": "2026-07-19T16:34:31.290Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-10T15:57:28.857Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5d0ecc9efc8ec8608ec2c3"
+  },
+  "user": {
+    "$oid": "6a3d69fbf81e0b2f3d3c3ecf"
+  },
+  "room": {
+    "$oid": "6a463334f8368d1b04fe0fbd"
+  },
+  "services": [
+    {
+      "$oid": "6a46a73f525438b0b8daf06c"
+    }
+  ],
+  "checkIn": {
+    "$date": "2026-07-24T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2026-07-25T00:00:00.000Z"
+  },
+  "roomPrice": 25500,
+  "servicePrice": 5000,
+  "totalPrice": 30500,
+  "bookingStatus": "Completed",
+  "createdAt": {
+    "$date": "2026-07-19T17:52:12.991Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-23T09:30:06.132Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5fb5cabe8b5c6f32de17dc"
+  },
+  "user": {
+    "$oid": "6a49201b4e1786068983db60"
+  },
+  "room": {
+    "$oid": "6a462eeef8368d1b04fe0fb8"
+  },
+  "services": [
+    {
+      "$oid": "6a46a758525438b0b8daf06d"
+    },
+    {
+      "$oid": "6a46a7e6525438b0b8daf071"
+    }
+  ],
+  "checkIn": {
+    "$date": "2026-07-22T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2026-07-24T00:00:00.000Z"
+  },
+  "roomPrice": 40000,
+  "servicePrice": 6000,
+  "totalPrice": 46000,
+  "bookingStatus": "Completed",
+  "createdAt": {
+    "$date": "2026-07-21T18:09:14.915Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T04:35:04.455Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "6a5fb940be8b5c6f32de17e0"
+  },
+  "user": {
+    "$oid": "6a3c1fc920915e385a46fd5f"
+  },
+  "room": {
+    "$oid": "6a463285f8368d1b04fe0fba"
+  },
+  "services": [
+    {
+      "$oid": "6a5fb91bbe8b5c6f32de17df"
+    }
+  ],
+  "checkIn": {
+    "$date": "2026-07-29T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2026-08-07T00:00:00.000Z"
+  },
+  "roomPrice": 225000,
+  "servicePrice": 15000,
+  "totalPrice": 240000,
+  "bookingStatus": "Cancelled",
+  "createdAt": {
+    "$date": "2026-07-21T18:24:00.992Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-24T18:30:25.332Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a6240059684b5c2b7e89659"
+  },
+  "user": {
+    "$oid": "6a492a8b23d39041492de6e8"
+  },
+  "room": {
+    "$oid": "6a463461f8368d1b04fe0fc5"
+  },
+  "services": [
+    {
+      "$oid": "6a46a7e6525438b0b8daf071"
+    },
+    {
+      "$oid": "6a46a73f525438b0b8daf06c"
+    },
+    {
+      "$oid": "6a46a762525438b0b8daf06e"
+    }
+  ],
+  "checkIn": {
+    "$date": "2026-07-24T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2026-07-31T00:00:00.000Z"
+  },
+  "roomPrice": 525000,
+  "servicePrice": 8500,
+  "totalPrice": 533500,
+  "bookingStatus": "Completed",
+  "createdAt": {
+    "$date": "2026-07-23T16:23:33.464Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-23T16:23:52.214Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a6259beaa1cc5831124e71b"
+  },
+  "user": {
+    "$oid": "6a62583caa1cc5831124e71a"
+  },
+  "room": {
+    "$oid": "6a4633c1f8368d1b04fe0fc1"
+  },
+  "services": [],
+  "checkIn": {
+    "$date": "2026-07-31T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2026-08-02T00:00:00.000Z"
+  },
+  "roomPrice": 130000,
+  "servicePrice": 0,
+  "totalPrice": 130000,
+  "bookingStatus": "Confirmed",
+  "createdAt": {
+    "$date": "2026-07-23T18:13:18.783Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-23T18:35:27.796Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a63808f64829fcad7d32d74"
+  },
+  "user": {
+    "$oid": "6a3ffcc1271e7de4eecf5215"
+  },
+  "room": {
+    "$oid": "6a463400f8368d1b04fe0fc2"
+  },
+  "services": [
+    {
+      "$oid": "6a46a73f525438b0b8daf06c"
+    },
+    {
+      "$oid": "6a46a7e6525438b0b8daf071"
+    },
+    {
+      "$oid": "6a5fb91bbe8b5c6f32de17df"
+    }
+  ],
+  "checkIn": {
+    "$date": "2026-07-24T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2026-07-25T00:00:00.000Z"
+  },
+  "roomPrice": 68000,
+  "servicePrice": 21000,
+  "totalPrice": 89000,
+  "bookingStatus": "Completed",
+  "createdAt": {
+    "$date": "2026-07-24T15:11:11.574Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-03T08:56:17.855Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a6b67269a09abed4d130536"
+  },
+  "user": {
+    "$oid": "6a3d69fbf81e0b2f3d3c3ecf"
+  },
+  "room": {
+    "$oid": "6a4610c7f8368d1b04fe0fb4"
+  },
+  "services": [
+    {
+      "$oid": "6a46a73f525438b0b8daf06c"
+    },
+    {
+      "$oid": "6a46a758525438b0b8daf06d"
+    }
+  ],
+  "checkIn": {
+    "$date": "2026-07-31T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2026-08-08T00:00:00.000Z"
+  },
+  "roomPrice": 96000,
+  "servicePrice": 10000,
+  "totalPrice": 106000,
+  "bookingStatus": "Completed",
+  "createdAt": {
+    "$date": "2026-07-30T15:00:54.118Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-03T08:56:56.889Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "6a7d75f4a2581a173c2de8f5"
+  },
+  "user": {
+    "$oid": "6a3c1fc920915e385a46fd5f"
+  },
+  "room": {
+    "$oid": "6a7d7599a2581a173c2de8f4"
+  },
+  "services": [
+    {
+      "$oid": "6a46a73f525438b0b8daf06c"
+    },
+    {
+      "$oid": "6a46a758525438b0b8daf06d"
+    },
+    {
+      "$oid": "6a46a7c9525438b0b8daf06f"
+    },
+    {
+      "$oid": "6a46a7de525438b0b8daf070"
+    }
+  ],
+  "checkIn": {
+    "$date": "2026-08-19T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2026-09-02T00:00:00.000Z"
+  },
+  "roomPrice": 1400000,
+  "servicePrice": 24000,
+  "totalPrice": 1424000,
+  "bookingStatus": "Cancelled",
+  "createdAt": {
+    "$date": "2026-08-13T07:44:52.792Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-13T07:48:05.514Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7feb38ffbf2397818f1c37"
+  },
+  "user": {
+    "$oid": "6a3d6a33f81e0b2f3d3c3ed0"
+  },
+  "room": {
+    "$oid": "6a4610e7f8368d1b04fe0fb5"
+  },
+  "services": [
+    {
+      "$oid": "6a46a7de525438b0b8daf070"
+    }
+  ],
+  "checkIn": {
+    "$date": "2026-08-22T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2026-09-03T00:00:00.000Z"
+  },
+  "roomPrice": 216000,
+  "servicePrice": 8000,
+  "totalPrice": 224000,
+  "bookingStatus": "Completed",
+  "createdAt": {
+    "$date": "2026-08-15T04:29:44.097Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-03T08:56:52.136Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a87db9115871c27862b2a12"
+  },
+  "user": {
+    "$oid": "6a87db4615871c27862b2a11"
+  },
+  "room": {
+    "$oid": "6a462f22f8368d1b04fe0fb9"
+  },
+  "services": [
+    {
+      "$oid": "6a46a73f525438b0b8daf06c"
+    }
+  ],
+  "checkIn": {
+    "$date": "2026-08-28T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2026-08-29T00:00:00.000Z"
+  },
+  "roomPrice": 23000,
+  "servicePrice": 5000,
+  "totalPrice": 28000,
+  "bookingStatus": "Completed",
+  "createdAt": {
+    "$date": "2026-08-21T05:01:05.439Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-03T08:56:44.017Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a9935f0782a68a0113454ea"
+  },
+  "user": {
+    "$oid": "6a3d69fbf81e0b2f3d3c3ecf"
+  },
+  "room": {
+    "$oid": "6a461167f8368d1b04fe0fb7"
+  },
+  "services": [
+    {
+      "$oid": "6a46a73f525438b0b8daf06c"
+    },
+    {
+      "$oid": "6a46a758525438b0b8daf06d"
+    }
+  ],
+  "checkIn": {
+    "$date": "2026-09-19T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2026-09-24T00:00:00.000Z"
+  },
+  "roomPrice": 90000,
+  "servicePrice": 10000,
+  "totalPrice": 100000,
+  "bookingStatus": "Completed",
+  "createdAt": {
+    "$date": "2026-09-03T08:55:12.921Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-03T08:56:37.229Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "6a9a5875c0843be1123bce90"
+  },
+  "user": {
+    "$oid": "6a3d69fbf81e0b2f3d3c3ecf"
+  },
+  "room": {
+    "$oid": "6a462eeef8368d1b04fe0fb8"
+  },
+  "services": [
+    {
+      "$oid": "6a46a73f525438b0b8daf06c"
+    }
+  ],
+  "checkIn": {
+    "$date": "2027-02-04T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2027-03-06T00:00:00.000Z"
+  },
+  "roomPrice": 600000,
+  "servicePrice": 5000,
+  "totalPrice": 605000,
+  "bookingStatus": "Confirmed",
+  "createdAt": {
+    "$date": "2026-09-04T05:34:45.356Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-04T05:35:34.056Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6aa2098e518c6c6ff2ace9e0"
+  },
+  "user": {
+    "$oid": "6a3d69fbf81e0b2f3d3c3ecf"
+  },
+  "room": {
+    "$oid": "6a462f22f8368d1b04fe0fb9"
+  },
+  "services": [
+    {
+      "$oid": "6a46a73f525438b0b8daf06c"
+    }
+  ],
+  "checkIn": {
+    "$date": "2026-09-24T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2026-10-23T00:00:00.000Z"
+  },
+  "roomPrice": 667000,
+  "servicePrice": 5000,
+  "totalPrice": 672000,
+  "bookingStatus": "Confirmed",
+  "createdAt": {
+    "$date": "2026-09-10T01:36:14.446Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-10T04:50:33.131Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6aa23679dbf2f256cd8176f5"
+  },
+  "user": {
+    "$oid": "6a492a8b23d39041492de6e8"
+  },
+  "room": {
+    "$oid": "6a4610c7f8368d1b04fe0fb4"
+  },
+  "services": [
+    {
+      "$oid": "6a46a73f525438b0b8daf06c"
+    },
+    {
+      "$oid": "6a46a7de525438b0b8daf070"
+    },
+    {
+      "$oid": "6a46a7e6525438b0b8daf071"
+    }
+  ],
+  "checkIn": {
+    "$date": "2026-09-17T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2026-09-19T00:00:00.000Z"
+  },
+  "roomPrice": 24000,
+  "servicePrice": 14000,
+  "totalPrice": 38000,
+  "bookingStatus": "Completed",
+  "createdAt": {
+    "$date": "2026-09-10T04:47:53.819Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-10T05:11:11.992Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6aa23d9a32913888fbd78851"
+  },
+  "user": {
+    "$oid": "6aa23d0432913888fbd78850"
+  },
+  "room": {
+    "$oid": "6a6b67ee9a09abed4d130557"
+  },
+  "services": [
+    {
+      "$oid": "6a46a73f525438b0b8daf06c"
+    },
+    {
+      "$oid": "6a46a758525438b0b8daf06d"
+    },
+    {
+      "$oid": "6a46a762525438b0b8daf06e"
+    },
+    {
+      "$oid": "6a46a7e6525438b0b8daf071"
+    },
+    {
+      "$oid": "6a5fb91bbe8b5c6f32de17df"
+    }
+  ],
+  "checkIn": {
+    "$date": "2026-09-11T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2026-09-25T00:00:00.000Z"
+  },
+  "roomPrice": 10500000,
+  "servicePrice": 28500,
+  "totalPrice": 10528500,
+  "bookingStatus": "Pending",
+  "createdAt": {
+    "$date": "2026-09-10T05:18:18.477Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-10T05:18:18.477Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6aa2547732913888fbd78852"
+  },
+  "user": {
+    "$oid": "6a3d69fbf81e0b2f3d3c3ecf"
+  },
+  "room": {
+    "$oid": "6a461167f8368d1b04fe0fb7"
+  },
+  "services": [
+    {
+      "$oid": "6a46a758525438b0b8daf06d"
+    }
+  ],
+  "checkIn": {
+    "$date": "2026-09-17T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2026-10-01T00:00:00.000Z"
+  },
+  "roomPrice": 252000,
+  "servicePrice": 5000,
+  "totalPrice": 257000,
+  "bookingStatus": "Pending",
+  "createdAt": {
+    "$date": "2026-09-10T06:55:51.454Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-10T06:55:51.454Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6aa2d229764f8eddb4c0fbda"
+  },
+  "user": {
+    "$oid": "6aa2d1ae764f8eddb4c0fbd9"
+  },
+  "room": {
+    "$oid": "6a46114cf8368d1b04fe0fb6"
+  },
+  "services": [
+    {
+      "$oid": "6a46a73f525438b0b8daf06c"
+    },
+    {
+      "$oid": "6a46a758525438b0b8daf06d"
+    },
+    {
+      "$oid": "6a46a762525438b0b8daf06e"
+    }
+  ],
+  "checkIn": {
+    "$date": "2026-09-18T00:00:00.000Z"
+  },
+  "checkOut": {
+    "$date": "2026-09-25T00:00:00.000Z"
+  },
+  "roomPrice": 126000,
+  "servicePrice": 12500,
+  "totalPrice": 138500,
+  "bookingStatus": "Cancelled",
+  "createdAt": {
+    "$date": "2026-09-10T15:52:09.367Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-10T15:53:58.158Z"
+  },
+  "__v": 0
+}]

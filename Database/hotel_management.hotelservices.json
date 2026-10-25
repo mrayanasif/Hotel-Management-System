@@ -1,0 +1,119 @@
+[{
+  "_id": {
+    "$oid": "6a46a73f525438b0b8daf06c"
+  },
+  "serviceName": "Spa & Wellness",
+  "description": "Relaxing massage and wellness therapy.",
+  "price": 6000,
+  "icon": "Sparkles",
+  "availability": "Available",
+  "createdAt": {
+    "$date": "2026-07-02T18:00:31.351Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-10T15:58:16.218Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a46a758525438b0b8daf06d"
+  },
+  "serviceName": "Airport Pickup",
+  "description": "Luxury airport pickup and drop-off service.",
+  "price": 5000,
+  "icon": "Car",
+  "availability": "Available",
+  "createdAt": {
+    "$date": "2026-07-02T18:00:56.418Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-21T18:28:12.097Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a46a762525438b0b8daf06e"
+  },
+  "serviceName": "Fine Dining",
+  "description": "Enjoy delicious meals prepared by our professional chefs.",
+  "price": 2500,
+  "icon": "UtensilsCrossed",
+  "availability": "Available",
+  "createdAt": {
+    "$date": "2026-07-02T18:01:06.807Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-02T18:01:06.807Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a46a7c9525438b0b8daf06f"
+  },
+  "serviceName": "Kids Zone Access",
+  "description": "Enjoy non stop six hours of gaming ",
+  "price": 6000,
+  "icon": "Gamepad2",
+  "availability": "Available",
+  "createdAt": {
+    "$date": "2026-07-02T18:02:49.773Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-02T18:02:49.773Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a46a7de525438b0b8daf070"
+  },
+  "serviceName": "Fitness Gym",
+  "description": "Fully equipped modern fitness center.",
+  "price": 8000,
+  "icon": "Dumbbell",
+  "availability": "Available",
+  "createdAt": {
+    "$date": "2026-07-02T18:03:10.545Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-02T18:03:10.545Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a46a7e6525438b0b8daf071"
+  },
+  "serviceName": "Swimming Pool",
+  "description": "Outdoor temperature-controlled swimming pool.",
+  "price": 1000,
+  "icon": "Waves",
+  "availability": "Available",
+  "createdAt": {
+    "$date": "2026-07-02T18:03:18.179Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-02T18:03:18.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5fb91bbe8b5c6f32de17df"
+  },
+  "serviceName": "Birthday Party Decoration",
+  "description": "we organize birthday parties ",
+  "price": 15000,
+  "icon": "Sparkles",
+  "availability": "Available",
+  "createdAt": {
+    "$date": "2026-07-21T18:23:23.917Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-21T18:23:23.917Z"
+  },
+  "__v": 0
+}]

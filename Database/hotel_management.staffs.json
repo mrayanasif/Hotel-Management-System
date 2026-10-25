@@ -1,0 +1,184 @@
+[{
+  "_id": {
+    "$oid": "6a6aeda388786343dab3b2fb"
+  },
+  "employeeId": "EMP001",
+  "name": "Muhammad",
+  "email": "m@gmail.com",
+  "contact": "03313000987",
+  "role": "Receptionist",
+  "salary": 20000,
+  "address": "\nRabia City",
+  "joiningDate": {
+    "$date": "2026-07-30T06:22:27.431Z"
+  },
+  "status": "OnLeave",
+  "createdAt": {
+    "$date": "2026-07-30T06:22:27.435Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-30T06:26:26.853Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a6aeddb88786343dab3b2fc"
+  },
+  "employeeId": "EMP002",
+  "name": "Ali",
+  "email": "ali@gmail.com",
+  "contact": "03313000987",
+  "role": "Manager",
+  "salary": 60000,
+  "address": "Johar Mor Disco Bakery",
+  "joiningDate": {
+    "$date": "2026-07-30T06:23:23.743Z"
+  },
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-07-30T06:23:23.744Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-30T06:23:23.744Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a6aee166b0d43d3e9845592"
+  },
+  "employeeId": "EMP003",
+  "name": "Sara",
+  "email": "sara@gmail.com",
+  "contact": "03342334467",
+  "role": "Chef",
+  "salary": 45000,
+  "address": "FalakNaz Appartments",
+  "joiningDate": {
+    "$date": "2026-07-30T06:24:22.952Z"
+  },
+  "status": "Inactive",
+  "createdAt": {
+    "$date": "2026-07-30T06:24:22.955Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-13T06:39:30.122Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a6b68579a09abed4d130569"
+  },
+  "employeeId": "EMP004",
+  "name": "Saif",
+  "email": "saif@gmail.com",
+  "contact": "03321122891",
+  "role": "Maintenance",
+  "salary": 50000,
+  "address": "Bahria Town",
+  "joiningDate": {
+    "$date": "2026-07-30T15:05:59.766Z"
+  },
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-07-30T15:05:59.766Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-30T15:05:59.766Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7d678ba2581a173c2de8f2"
+  },
+  "employeeId": "EMP005",
+  "name": "Nasir",
+  "email": "nasir@gmail.com",
+  "contact": "03342333356",
+  "role": "Maintenance",
+  "salary": 55000,
+  "address": "Share-e-Faisal",
+  "joiningDate": {
+    "$date": "2026-08-13T06:43:23.609Z"
+  },
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-08-13T06:43:23.611Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-13T06:43:38.520Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7fdaf856246eebfb96fb94"
+  },
+  "employeeId": "EMP006",
+  "name": "Sadia",
+  "email": "sadia@gmail.com",
+  "contact": "03342112278",
+  "role": "Housekeeping",
+  "salary": 55000,
+  "address": "Regal Chowk",
+  "joiningDate": {
+    "$date": "2026-08-15T03:20:24.074Z"
+  },
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-08-15T03:20:24.075Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-15T03:20:24.075Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a9a58d1c0843be1123bced3"
+  },
+  "employeeId": "EMP007",
+  "name": "alina",
+  "email": "alina@gmail.com",
+  "contact": "03342555567",
+  "role": "Chef",
+  "salary": 50000,
+  "address": "vhghgg",
+  "joiningDate": {
+    "$date": "2026-09-04T05:36:17.600Z"
+  },
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-09-04T05:36:17.601Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-04T05:36:17.601Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6aa2d5b1764f8eddb4c0fce9"
+  },
+  "employeeId": "EMP008",
+  "name": "saqib",
+  "email": "saqib@gmail.com",
+  "contact": "0334556678",
+  "role": "Maintenance",
+  "salary": 560000,
+  "address": "malir Cantt",
+  "joiningDate": {
+    "$date": "2026-09-10T16:07:13.225Z"
+  },
+  "status": "Inactive",
+  "createdAt": {
+    "$date": "2026-09-10T16:07:13.225Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-10T16:07:21.450Z"
+  },
+  "__v": 0
+}]
