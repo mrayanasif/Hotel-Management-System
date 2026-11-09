@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+import axios from "../api/axios";
 import { toast } from "react-toastify";
 
 function ManageBookings() {
@@ -9,7 +9,7 @@ function ManageBookings() {
       const token = localStorage.getItem("token");
 
       const response = await axios.get(
-        "http://localhost:5000/api/users/all-users",
+        "users/all-users",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -29,7 +29,7 @@ function ManageBookings() {
       const token = localStorage.getItem("token");
 
       const response = await axios.get(
-        "http://localhost:5000/api/rooms/all-rooms",
+        "rooms/all-rooms",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -50,7 +50,7 @@ function ManageBookings() {
       const token = localStorage.getItem("token");
 
       const response = await axios.get(
-        "http://localhost:5000/api/hotelservice/all-services",
+        "hotelservice/all-services",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -69,7 +69,7 @@ function ManageBookings() {
       const token = localStorage.getItem("token");
 
       await axios.post(
-        "http://localhost:5000/api/bookings/admin-create-booking",
+        "bookings/admin-create-booking",
         formData,
         {
           headers: {
@@ -109,7 +109,7 @@ function ManageBookings() {
       const token = localStorage.getItem("token");
 
       const response = await axios.get(
-        "http://localhost:5000/api/bookings/all-bookings",
+        "bookings/all-bookings",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -149,7 +149,7 @@ function ManageBookings() {
       const token = localStorage.getItem("token");
 
       await axios.put(
-        `http://localhost:5000/api/bookings/admin-update/${selectedBooking._id}`,
+        `bookings/admin-update/${selectedBooking._id}`,
         formData,
         {
           headers: {
@@ -205,7 +205,7 @@ function ManageBookings() {
       const token = localStorage.getItem("token");
 
       await axios.delete(
-        `http://localhost:5000/api/bookings/delete/${selectedBooking._id}`,
+        `bookings/delete/${selectedBooking._id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

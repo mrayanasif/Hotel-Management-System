@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+import axios from "../api/axios";
 import { toast } from "react-toastify";
 
 function ManageHousekeeping() {
@@ -26,7 +26,7 @@ const cleaningRooms = rooms.filter(
       const token = localStorage.getItem("token");
 
       const response = await axios.get(
-        "http://localhost:5000/api/housekeeping/all-cleaning-rooms",
+        "housekeeping/all-cleaning-rooms",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -61,7 +61,7 @@ const cleaningRooms = rooms.filter(
       const token = localStorage.getItem("token");
 
       await axios.put(
-        `http://localhost:5000/api/housekeeping/mark-clean/${selectedRoom._id}`,
+        `housekeeping/mark-clean/${selectedRoom._id}`,
         {},
         {
           headers: {

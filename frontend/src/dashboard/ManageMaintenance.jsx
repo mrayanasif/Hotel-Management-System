@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+import axios from "../api/axios";
 import { toast } from "react-toastify";
 
 function ManageMaintenance() {
@@ -26,7 +26,7 @@ function ManageMaintenance() {
       const token = localStorage.getItem("token");
 
       const response = await axios.get(
-        "http://localhost:5000/api/maintenance/all-maintenance",
+        "maintenance/all-maintenance",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -47,7 +47,7 @@ function ManageMaintenance() {
       const token = localStorage.getItem("token");
 
       const response = await axios.get(
-        "http://localhost:5000/api/rooms/all-rooms",
+        "rooms/all-rooms",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -66,7 +66,7 @@ function ManageMaintenance() {
       const token = localStorage.getItem("token");
 
       const response = await axios.get(
-        "http://localhost:5000/api/users/all-users",
+        "users/all-users",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -96,7 +96,7 @@ function ManageMaintenance() {
       const token = localStorage.getItem("token");
 
       await axios.post(
-        "http://localhost:5000/api/maintenance/create",
+        "maintenance/create",
         formData,
         {
           headers: {
@@ -130,7 +130,7 @@ function ManageMaintenance() {
     try {
       const token = localStorage.getItem("token");
       await axios.put(
-        `http://localhost:5000/api/maintenance/update/${selectedMaintenance._id}`,
+        `maintenance/update/${selectedMaintenance._id}`,
         {
           issue: formData.issue,
           status: formData.status,
@@ -169,7 +169,7 @@ function ManageMaintenance() {
       const token = localStorage.getItem("token");
 
       await axios.delete(
-        `http://localhost:5000/api/maintenance/delete/${selectedMaintenance._id}`,
+        `maintenance/delete/${selectedMaintenance._id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

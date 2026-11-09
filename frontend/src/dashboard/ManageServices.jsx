@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+import axios from "../api/axios";
 import { toast } from "react-toastify";
 function ManageServices() {
   const [services, setServices] = useState([]);
@@ -22,7 +22,7 @@ function ManageServices() {
       const token = localStorage.getItem("token");
 
       const response = await axios.get(
-        "http://localhost:5000/api/hotelservice/all-services",
+        "hotelservice/all-services",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -46,7 +46,7 @@ function ManageServices() {
       const token = localStorage.getItem("token");
 
       await axios.post(
-        "http://localhost:5000/api/hotelservice/add-service",
+        "hotelservice/add-service",
         formData,
         {
           headers: {
@@ -84,7 +84,7 @@ function ManageServices() {
       const token = localStorage.getItem("token");
 
       await axios.put(
-        `http://localhost:5000/api/hotelservice/update/${selectedService._id}`,
+        `hotelservice/update/${selectedService._id}`,
         formData,
         {
           headers: {
@@ -109,7 +109,7 @@ function ManageServices() {
       const token = localStorage.getItem("token");
 
       await axios.delete(
-        `http://localhost:5000/api/hotelservice/delete/${selectedService._id}`,
+        `hotelservice/delete/${selectedService._id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

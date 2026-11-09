@@ -1,0 +1,5 @@
+PORT=5000
+
+MONGO_URI=mongodb+srv://rayan:rayan123@cluster0.sqpjfa8.mongodb.net/hotel_management?retryWrites=true&w=majority
+
+JWT_SECRET=mysecretkey123

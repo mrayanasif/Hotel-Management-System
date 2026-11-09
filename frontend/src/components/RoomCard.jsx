@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import api from "../api/axios";
 
 import {
   Star,
@@ -20,7 +21,7 @@ function RoomCard({ room }) {
 
       <div className="overflow-hidden">
         <img
-         src={`http://localhost:5000/uploads/${room.image}`}
+         src={`${api.defaults.baseURL.replace(/\/api\/?$/, "")}/uploads/${room.image}`}
           alt={room.roomType}
           className="w-full h-100 object-cover hover:scale-110 transition duration-500"
         />

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
+import axios from "../api/axios";
 import { toast } from "react-toastify";
 import {
   Wifi,
@@ -60,7 +60,7 @@ function ManageRooms() {
   const fetchRooms = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:5000/api/rooms/all-rooms",
+        "rooms/all-rooms",
       );
 
       setRooms(response.data.rooms);
@@ -118,7 +118,7 @@ function ManageRooms() {
       }
 
       await axios.put(
-        `http://localhost:5000/api/rooms/update/${selectedRoom._id}`,
+        `rooms/update/${selectedRoom._id}`,
         updatedRoom,
         {
           headers: {
@@ -144,7 +144,7 @@ function ManageRooms() {
       const token = localStorage.getItem("token");
 
       await axios.delete(
-        `http://localhost:5000/api/rooms/delete/${selectedRoom._id}`,
+        `rooms/delete/${selectedRoom._id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -239,7 +239,7 @@ function ManageRooms() {
 
       // ================= API Call =================
 
-      await axios.post("http://localhost:5000/api/rooms/add-room", newRoom, {
+      await axios.post("rooms/add-room", newRoom, {
         headers: {
           Authorization: `Bearer ${token}`,
           "Content-Type": "multipart/form-data",
@@ -364,7 +364,7 @@ function ManageRooms() {
                   >
                     <td className="py-4 text-center">
                       <img
-                        src={`http://localhost:5000/uploads/${room.image}`}
+                        src={`/uploads/${room.image}`}
                         alt={room.roomType}
                         className="w-24 h-16 object-cover rounded-lg mx-auto shadow"
                       />
@@ -577,7 +577,7 @@ function ManageRooms() {
                 </label>
 
                 <img
-                  src={`http://localhost:5000/uploads/${selectedRoom?.image}`}
+                  src={`/uploads/${selectedRoom?.image}`}
                   alt=""
                   className="w-48 h-32 object-cover rounded-lg border"
                 />

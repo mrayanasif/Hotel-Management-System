@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+import axios from "../api/axios";
 import { toast } from "react-toastify";
 function ManageFeedback() {
   // import STATES
@@ -24,7 +24,7 @@ function ManageFeedback() {
       const token = localStorage.getItem("token");
 
       const response = await axios.get(
-        "http://localhost:5000/api/feedback/all-feedback",
+        "feedback/all-feedback",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -48,7 +48,7 @@ function ManageFeedback() {
       const token = localStorage.getItem("token");
 
       await axios.delete(
-        `http://localhost:5000/api/feedback/delete/${selectedFeedback._id}`,
+        `feedback/delete/${selectedFeedback._id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -72,7 +72,7 @@ function ManageFeedback() {
       const token = localStorage.getItem("token");
 
       await axios.put(
-        `http://localhost:5000/api/feedback/update/${selectedFeedback._id}`,
+        `feedback/update/${selectedFeedback._id}`,
         formData,
         {
           headers: {

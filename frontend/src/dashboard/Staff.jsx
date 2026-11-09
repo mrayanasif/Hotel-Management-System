@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+import axios from "../api/axios";
 import { toast } from "react-toastify";
 
 function Staff() {
@@ -34,7 +34,7 @@ function Staff() {
       const token = localStorage.getItem("token");
 
       const response = await axios.get(
-        "http://localhost:5000/api/staff/all-staff",
+        "staff/all-staff",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -72,7 +72,7 @@ function Staff() {
       const token = localStorage.getItem("token");
 
       await axios.post(
-        "http://localhost:5000/api/staff/create-staff",
+        "staff/create-staff",
         formData,
         {
           headers: {
@@ -112,7 +112,7 @@ function Staff() {
       const token = localStorage.getItem("token");
 
       await axios.put(
-        `http://localhost:5000/api/staff/update-staff/${selectedStaff._id}`,
+        `staff/update-staff/${selectedStaff._id}`,
         formData,
         {
           headers: {
@@ -154,7 +154,7 @@ function Staff() {
       const token = localStorage.getItem("token");
 
       await axios.delete(
-        `http://localhost:5000/api/staff/delete-staff/${selectedStaff._id}`,
+        `staff/delete-staff/${selectedStaff._id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

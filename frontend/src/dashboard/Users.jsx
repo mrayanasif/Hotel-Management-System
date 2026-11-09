@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+import axios from "../api/axios";
 import { toast } from "react-toastify";
 import { UserPlus } from "lucide-react";
 import { useNavigate } from "react-router-dom";
@@ -23,7 +23,7 @@ const Users = () => {
       const token = localStorage.getItem("token");
 
       const response = await axios.get(
-        "http://localhost:5000/api/users/all-users",
+        "users/all-users",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -64,7 +64,7 @@ const Users = () => {
       const token = localStorage.getItem("token");
 
       await axios.put(
-        `http://localhost:5000/api/users/update/${selectedUser._id}`,
+        `users/update/${selectedUser._id}`,
         selectedUser,
         {
           headers: {
@@ -87,7 +87,7 @@ const Users = () => {
       const token = localStorage.getItem("token");
 
       await axios.delete(
-        `http://localhost:5000/api/users/delete/${selectedUser._id}`,
+        `users/delete/${selectedUser._id}`,
 
         {
           headers: {
