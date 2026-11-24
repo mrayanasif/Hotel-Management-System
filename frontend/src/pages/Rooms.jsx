@@ -10,17 +10,24 @@ import AvailabilityComp from "../components/AvailabilityComp";
 function Rooms() {
   const [filter, setFilter] = useState("All");
   const [rooms, setRooms] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [roomsError, setRoomsError] = useState("");
 
   // We used  Fetch method for bringinh Rooms from mongo
   const fetchRooms = async () => {
     try {
       const response = await api.get("/rooms/all-rooms");
-
-      console.log(response.data);
-
+      if (!Array.isArray(response.data?.rooms)) {
+        throw new Error("The rooms API returned an unexpected response.");
+      }
       setRooms(response.data.rooms);
     } catch (error) {
-      console.log(error);
+      setRoomsError(
+        error.response?.data?.message ||
+          "Rooms could not be loaded. Please try again later.",
+      );
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -137,20 +144,38 @@ function Rooms() {
 
           {/* Showing Rooms */}
 
-          <p className="text-center text-gray-500 mb-14">
-            Showing{" "}
-            <span className="font-bold text-amber-600">
-              {filteredRooms.length}
-            </span>{" "}
-            Rooms
-          </p>
+          {roomsError ? (
+            <p role="alert" className="text-center text-red-700 mb-14">
+              {roomsError}
+            </p>
+          ) : (
+            <p className="text-center text-gray-500 mb-14">
+              {isLoading ? (
+                "Loading rooms..."
+              ) : (
+                <>
+                  Showing{" "}
+                  <span className="font-bold text-amber-600">
+                    {filteredRooms.length}
+                  </span>{" "}
+                  Rooms
+                </>
+              )}
+            </p>
+          )}
 
           {/* Room Cards */}
 
           <div className="grid lg:grid-cols-2 gap-12">
-            {filteredRooms.map((room) => (
-              <RoomCard key={room._id} room={room} />
-            ))}
+            {!isLoading && !roomsError && filteredRooms.length === 0 ? (
+              <p className="text-center text-gray-600 lg:col-span-2">
+                No rooms are available right now.
+              </p>
+            ) : (
+              filteredRooms.map((room) => (
+                <RoomCard key={room._id} room={room} />
+              ))
+            )}
           </div>
         </div>
       </section>
