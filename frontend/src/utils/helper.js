@@ -1,1 +1,3 @@
-const api = import.meta.env.VITE_API_URL || "/api";
+export default import.meta.env.DEV
+  ? (import.meta.env.VITE_API_URL || "http://localhost:5000/api")
+  : "/api";

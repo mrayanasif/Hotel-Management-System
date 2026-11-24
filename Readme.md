@@ -103,6 +103,8 @@ MONGO_URI=mongodb+srv://<username>:<password>@cluster0.sqpjfa8.mongodb.net/hotel
 JWT_SECRET=your_jwt_secret_key
 ```
 
+Do not commit database credentials or JWT secrets. Keep them in environment variables.
+
 Run the backend server:
 ```bash
 npm run dev
@@ -118,6 +120,17 @@ npm run dev
 ```
 
 ---
+
+## ☁️ Vercel Deployment
+
+This repository deploys the frontend and API as two Vercel Services on one domain. In the Vercel project settings, set the framework to **Services** and make sure the project is connected to this repository with the repository root as its root directory. The root `vercel.json` routes `/api/*` to the backend and all other paths to the frontend.
+
+Add these environment variables to the Vercel project for the backend service, for Production and any Preview environments you use:
+
+- `MONGO_URI` — your MongoDB Atlas connection string
+- `JWT_SECRET` — a long, random signing secret
+
+The frontend uses the same-domain `/api` path in production. It does not need a localhost URL or a `VITE_API_URL` setting. Redeploy after changing project settings or environment variables. MongoDB Atlas must allow connections from the deployed backend; use an appropriate Atlas network access rule for your deployment.
 
 ## 🔒 Security Practices
 - **JWT Authentication:** Stateless user session management.

@@ -2,8 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const dotenv = require("dotenv");
 
-// 👈 1. Import change kiya (connectDB nahi, ab connectToMongoDB aur disconnectFromMongoDB aayega)
-const { connectToMongoDB, disconnectFromMongoDB } = require("./config/db");
+const { connectToMongoDB } = require("./config/db");
 
 // Routes Imports (Yeh same rahenge)
 const UserRoutes = require("./routes/UserRoutes");
@@ -19,13 +18,24 @@ const HousekeepingRoutes = require("./routes/HousekeepingRoutes");
 
 const app = express();
 
-// 👈 2. dotenv sabse pehle load hona chahiye
 dotenv.config();
 
 // Middlewares
 app.use(cors());
 app.use(express.json());
 app.use("/uploads", express.static("uploads"));
+app.get("/", (_req, res) => {
+  res.send("Hotel Management API Running");
+});
+app.use(async (_req, res, next) => {
+  try {
+    await connectToMongoDB();
+    next();
+  } catch (error) {
+    console.error("MongoDB request connection failed:", error.message);
+    res.status(503).json({ message: "Database is temporarily unavailable" });
+  }
+});
 
 // Routes Setup
 app.use("/api/users", UserRoutes);
@@ -38,22 +48,17 @@ app.use("/api/hotelservice", HotelServiceRoutes); // Space fix kiya yahan
 app.use("/api/dashboard", DashboardRoutes);
 app.use("/api/staff", StaffRoutes);
 app.use("/api/housekeeping", HousekeepingRoutes);
-
-app.get("/", (req, res) => {
-  res.send("Hotel Management API Running");
+app.get("/api/health", (_req, res) => {
+  res.json({ status: "ok", database: "connected" });
 });
 
 const PORT = process.env.PORT || 5000;
 
-// 👈 3. Database connect hone ke BAAD hi server start karein
-connectToMongoDB().then(() => {
+// Vercel imports the Express app; local development starts the HTTP listener.
+if (require.main === module) {
   app.listen(PORT, () => {
-    console.log(`🚀 Server running on port ${PORT}`);
+    console.log(`Server running on port ${PORT}`);
   });
-});
+}
 
-// 👈 4. Graceful Shutdown (Jab aap server band karein toh DB connection properly close ho)
-process.on("SIGINT", async () => {
-  await disconnectFromMongoDB();
-  process.exit(0);
-});
+module.exports = app;
