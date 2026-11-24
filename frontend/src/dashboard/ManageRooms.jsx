@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "../api/axios";
+import getRoomImageUrl from "../utils/roomImage";
 import { toast } from "react-toastify";
 import {
   Wifi,
@@ -18,8 +19,6 @@ import {
   BathIcon,
 } from "lucide-react";
 
-const getRoomImageUrl = (image) =>
-  `${axios.defaults.baseURL.replace(/\/api\/?$/, "")}/uploads/${image}`;
 function ManageRooms() {
   const navigate = useNavigate();
 
@@ -367,7 +366,7 @@ function ManageRooms() {
                   >
                     <td className="py-4 text-center">
                       <img
-                        src={getRoomImageUrl(room.image)}
+                        src={getRoomImageUrl(room.image, room.roomType)}
                         alt={room.roomType}
                         className="w-24 h-16 object-cover rounded-lg mx-auto shadow"
                       />
@@ -580,7 +579,10 @@ function ManageRooms() {
                 </label>
 
                 <img
-                  src={getRoomImageUrl(selectedRoom?.image)}
+                  src={getRoomImageUrl(
+                    selectedRoom?.image,
+                    selectedRoom?.roomType,
+                  )}
                   alt=""
                   className="w-48 h-32 object-cover rounded-lg border"
                 />
