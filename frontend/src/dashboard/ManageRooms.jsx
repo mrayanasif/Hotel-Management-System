@@ -17,6 +17,9 @@ import {
   TreePalmIcon,
   BathIcon,
 } from "lucide-react";
+
+const getRoomImageUrl = (image) =>
+  `${axios.defaults.baseURL.replace(/\/api\/?$/, "")}/uploads/${image}`;
 function ManageRooms() {
   const navigate = useNavigate();
 
@@ -364,7 +367,7 @@ function ManageRooms() {
                   >
                     <td className="py-4 text-center">
                       <img
-                        src={`/uploads/${room.image}`}
+                        src={getRoomImageUrl(room.image)}
                         alt={room.roomType}
                         className="w-24 h-16 object-cover rounded-lg mx-auto shadow"
                       />
@@ -577,7 +580,7 @@ function ManageRooms() {
                 </label>
 
                 <img
-                  src={`/uploads/${selectedRoom?.image}`}
+                  src={getRoomImageUrl(selectedRoom?.image)}
                   alt=""
                   className="w-48 h-32 object-cover rounded-lg border"
                 />
